@@ -33,6 +33,6 @@ formEl.addEventListener("submit",()=>{
 });
 
 function upLocalStorage(){
-    localStorage.setItem("score",JSON.stringify("score"));
+    localStorage.setItem("score",JSON.stringify(score));
 }
 

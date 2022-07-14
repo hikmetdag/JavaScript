@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(209, 209, 234);
+}
+.container{
+    width: 500px;
+    height:350px;
+    background-color: rgb(148, 148, 189);
+    box-shadow: 0px 4px 8x black;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+
+.count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#textarea{
+    width:100%;
+    height:55%;
+}
+#counterTotal{
+    color: rgb(42, 61, 165);
+}
+#counterRemaining{
+    color: green;
+}
